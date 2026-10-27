@@ -1,0 +1,75 @@
+[
+  {
+    "id": "q01",
+    "question": "How much less energy does iMac use compared to the ENERGY STAR requirement?",
+    "expected_pages": [7, 12],
+    "must_contain": ["58\\s?(%|percent)"],
+    "forbid": [],
+    "note": "Sample question 1. p. 7: 'iMac uses 58 percent less energy than the requirement for ENERGY STAR.' The footnote [18] (p. 12) defines the requirement and the test configuration."
+  },
+  {
+    "id": "q02",
+    "question": "What is the total carbon footprint of the iMac, and how much of that comes from product use versus manufacturing?",
+    "expected_pages": [2, 10],
+    "must_contain": ["346", "50\\s?%", "45\\s?%"],
+    "forbid": [],
+    "note": "Sample question 2. p. 10 table: total 346 kg CO2e; production 50%, product use 45%, transportation 5%, end-of-life <1%. Production is the manufacturing share. Footnote [10] says the 346 kg was calculated for the 512GB configuration, while the table labels it 256GB. A good answer flags this."
+  },
+  {
+    "id": "q03",
+    "question": "What material is the iMac stand made from, and what percentage of it is recycled?",
+    "expected_pages": [1, 2, 4],
+    "must_contain": ["aluminum|aluminium", "100\\s?(%|percent)"],
+    "forbid": [],
+    "note": "Sample question 3. p. 4 and p. 1: '100 percent recycled aluminum in the stand'. Icon call-out and body text."
+  },
+  {
+    "id": "q04",
+    "question": "What is the iMac's idle power consumption with the display on at 115V?",
+    "expected_pages": [12],
+    "must_contain": ["20\\.6\\s?W"],
+    "forbid": [],
+    "note": "Table on p. 12: 'Idle-Display On' row, 115V column = 20.6W. The text layer can't rebuild this table; the vision pass reads it."
+  },
+  {
+    "id": "q05",
+    "question": "What is the power adapter efficiency at 230V?",
+    "expected_pages": [12],
+    "must_contain": ["91\\.9\\s?%"],
+    "forbid": [],
+    "note": "Table on p. 12: 'Power adapter efficiency' row, 230V column = 91.9%."
+  },
+  {
+    "id": "q06",
+    "question": "What is the carbon footprint of the four-port iMac with 512GB storage?",
+    "expected_pages": [10],
+    "must_contain": ["391"],
+    "forbid": [],
+    "note": "Configuration table on p. 10: iMac (four ports) 512GB = 391 kg CO2e."
+  },
+  {
+    "id": "q07",
+    "question": "Which configuration does the 346 kg emissions figure refer to?",
+    "expected_pages": [2, 10, 11],
+    "must_contain": ["256", "512"],
+    "forbid": [],
+    "note": "Footnote linking test. The table header says iMac (two ports) 256GB; footnote [10] says 512GB. The answer must surface both and the conflict."
+  },
+  {
+    "id": "q08",
+    "question": "What percentage of iMac's packaging is fiber-based?",
+    "expected_pages": [1, 6],
+    "must_contain": ["100\\s?(%|percent)"],
+    "forbid": [],
+    "note": "p. 6: '100% of the packaging is fiber-based'. Footnote [3] restricts this to U.S. retail packaging by weight."
+  },
+  {
+    "id": "q09",
+    "question": "What is the iMac's battery life?",
+    "expected_pages": [],
+    "must_contain": [],
+    "forbid": [],
+    "refuse": true,
+    "note": "Not in the report. Must refuse."
+  }
+]

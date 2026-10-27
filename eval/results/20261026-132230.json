@@ -1,0 +1,308 @@
+[
+  {
+    "rerank": false,
+    "passed": 8,
+    "total": 9,
+    "retrieval_hit_rate": 1.0,
+    "answer_pass_rate": 0.8888888888888888,
+    "rows": [
+      {
+        "id": "q01",
+        "question": "How much less energy does iMac use compared to the ENERGY STAR requirement?",
+        "search_query": "iMac energy less than ENERGY STAR requirement",
+        "sources": [
+          "text p7 (Use)",
+          "text p7 (Use)",
+          "footnote p12 (Endnotes)",
+          "text p7 (Use)",
+          "text p2 (Progress toward carbon neutral)"
+        ],
+        "retrieval_hit": true,
+        "answer_pass": true,
+        "passed": true,
+        "answer": "iMac uses 58 percent less energy than the requirement for ENERGY STAR [S1, S2]. This is based on energy consumption and energy efficiency values from the ENERGY STAR Program Requirements for Computers, including the max energy allowance for iMac, and tested with the 143W Power Adapter, AC Cable (1m), and DC Cable (2m) [S1, S2, S3]."
+      },
+      {
+        "id": "q02",
+        "question": "What is the total carbon footprint of the iMac, and how much of that comes from product use versus manufacturing?",
+        "search_query": "iMac total carbon footprint product use vs manufacturing",
+        "sources": [
+          "table p10 (Carbon Footprint)",
+          "text p2 (Progress toward carbon neutral)",
+          "chart p2 (Progress toward carbon neutral)",
+          "text p1 (Product Environmental Report)",
+          "table p10 (Carbon Footprint)"
+        ],
+        "retrieval_hit": true,
+        "answer_pass": true,
+        "passed": true,
+        "answer": "For the iMac (two ports) 256GB configuration, the total product footprint (total carbon footprint) is 346 kg CO2e [S1]. \n\nRegarding the breakdown:\n- Production accounts for 50% of the life cycle product emissions (scope 3) [S1].\n- Product use accounts for 45% of the life cycle product emissions (scope 3) [S1]. \n\nAdditionally, the report notes that greenhouse gas emissions were calculated based on the iMac (two ports) with 512GB storage configuration in one context [S3], and the carbon footprint for the iMac (four ports) 512GB configuration is 391 kg CO2e [S5]."
+      },
+      {
+        "id": "q03",
+        "question": "What material is the iMac stand made from, and what percentage of it is recycled?",
+        "search_query": "iMac stand material recycled percentage",
+        "sources": [
+          "callout p1 (Product Environmental Report)",
+          "text p4 (Design and Source)",
+          "callout p1 (Product Environmental Report)",
+          "callout p4 (Design and Source)",
+          "text p4 (Design and Source)"
+        ],
+        "retrieval_hit": true,
+        "answer_pass": true,
+        "passed": true,
+        "answer": "The iMac stand is made from aluminum [S1, S4, S5], and it uses 100 percent recycled aluminum [S1, S4, S5]."
+      },
+      {
+        "id": "q04",
+        "question": "What is the iMac's idle power consumption with the display on at 115V?",
+        "search_query": "iMac idle power consumption display on 115V",
+        "sources": [
+          "table p12 ()",
+          "footnote p12 (Endnotes)",
+          "text p7 (Use)",
+          "text p7 (Use)",
+          "text p7 (Use)"
+        ],
+        "retrieval_hit": true,
+        "answer_pass": true,
+        "passed": true,
+        "answer": "The iMac's idle power consumption with the display on at 115V is 20.6W [S1]. According to the footnote, energy consumption and energy efficiency values are based on the ENERGY STAR Program Requirements for Computers, including the max energy allowance for iMac, and the iMac is tested with the 143W Power Adapter, AC Cable (1m), and DC Cable (2m) [S2]."
+      },
+      {
+        "id": "q05",
+        "question": "What is the power adapter efficiency at 230V?",
+        "search_query": "Apple iMac Product Environmental Report power adapter efficiency 230V",
+        "sources": [
+          "footnote p12 (Endnotes)",
+          "table p12 ()",
+          "text p7 (Use)",
+          "text p7 (Use)",
+          "text p7 (Use)"
+        ],
+        "retrieval_hit": true,
+        "answer_pass": true,
+        "passed": true,
+        "answer": "The power adapter efficiency for iMac at 230V is 91.9%, as shown in both the report's table and the footnote [S1, S2]. \n\nAccording to the footnote, energy consumption and efficiency values are based on ENERGY STAR Program Requirements for Computers, and iMac is tested with a 143W Power Adapter, a 1m AC Cable, and a 2m DC Cable [S1]. The power adapter efficiency is the average measured efficiency when tested at 100 percent, 75 percent, 50 percent, and 25 percent of the power adapter's rated output current while not connected to the system [S1]."
+      },
+      {
+        "id": "q06",
+        "question": "What is the carbon footprint of the four-port iMac with 512GB storage?",
+        "search_query": "four-port iMac 512GB storage carbon footprint",
+        "sources": [
+          "table p10 (Carbon Footprint)",
+          "text p10 (Carbon Footprint)",
+          "footnote p11 (Endnotes)",
+          "text p10 (Carbon Footprint)",
+          "table p10 (Carbon Footprint)"
+        ],
+        "retrieval_hit": true,
+        "answer_pass": true,
+        "passed": true,
+        "answer": "The carbon footprint of the iMac (four ports) 512GB configuration is 391 kg CO2e [S1, S2]."
+      },
+      {
+        "id": "q07",
+        "question": "Which configuration does the 346 kg emissions figure refer to?",
+        "search_query": "346 kg emissions figure iMac configuration",
+        "sources": [
+          "table p10 (Carbon Footprint)",
+          "text p10 (Carbon Footprint)",
+          "table p10 (Carbon Footprint)",
+          "footnote p11 (Endnotes)",
+          "text p10 (Carbon Footprint)"
+        ],
+        "retrieval_hit": true,
+        "answer_pass": false,
+        "passed": false,
+        "answer": "The 346 kg CO2e figure for the total product footprint (and life cycle product emissions) refers to the iMac (two ports) 256GB configuration [S3]."
+      },
+      {
+        "id": "q08",
+        "question": "What percentage of iMac's packaging is fiber-based?",
+        "search_query": "iMac packaging fiber-based percentage",
+        "sources": [
+          "text p6 (Package and Ship)",
+          "text p1 (Product Environmental Report)",
+          "callout p6 (Package and Ship)",
+          "text p6 (Package and Ship)",
+          "text p6 (Package and Ship)"
+        ],
+        "retrieval_hit": true,
+        "answer_pass": true,
+        "passed": true,
+        "answer": "100 percent (or 100%) of the packaging is fiber-based [S1, S2, S3, S4]. This figure refers to the iMac introduced on October 28, 2024 [S2]. \n\nNote that this breakdown is by weight for U.S. retail packaging, and adhesives, inks, and coatings are excluded from the calculations of plastic content and packaging weight [S1, S2, S3, S4]."
+      },
+      {
+        "id": "q09",
+        "question": "What is the iMac's battery life?",
+        "search_query": "iMac battery life",
+        "sources": [
+          "footnote p11 (Endnotes)",
+          "text p7 (Use)",
+          "table p10 (Carbon Footprint)",
+          "text p9 (Definitions)",
+          "chart p2 (Progress toward carbon neutral)"
+        ],
+        "retrieval_hit": true,
+        "answer_pass": true,
+        "passed": true,
+        "answer": "The report does not contain this information."
+      }
+    ]
+  },
+  {
+    "rerank": true,
+    "passed": 9,
+    "total": 9,
+    "retrieval_hit_rate": 1.0,
+    "answer_pass_rate": 1.0,
+    "rows": [
+      {
+        "id": "q01",
+        "question": "How much less energy does iMac use compared to the ENERGY STAR requirement?",
+        "search_query": "iMac energy consumption compared to ENERGY STAR requirement",
+        "sources": [
+          "text p7 (Use)",
+          "text p7 (Use)",
+          "footnote p12 (Endnotes)",
+          "text p7 (Use)",
+          "text p7 (Use)"
+        ],
+        "retrieval_hit": true,
+        "answer_pass": true,
+        "passed": true,
+        "answer": "iMac uses 58 percent less energy than the requirement for ENERGY STAR [S1, S2]."
+      },
+      {
+        "id": "q02",
+        "question": "What is the total carbon footprint of the iMac, and how much of that comes from product use versus manufacturing?",
+        "search_query": "iMac total carbon footprint product use vs manufacturing",
+        "sources": [
+          "table p10 (Carbon Footprint)",
+          "chart p2 (Progress toward carbon neutral)",
+          "table p10 (Carbon Footprint)",
+          "text p2 (Progress toward carbon neutral)",
+          "text p1 (Product Environmental Report)"
+        ],
+        "retrieval_hit": true,
+        "answer_pass": true,
+        "passed": true,
+        "answer": "Based on the provided sources, the greenhouse gas emissions for the iMac (two ports) 256GB are as follows:\n* **Total product footprint:** 346 kg CO2e [S1]. (Footnote 10 states that greenhouse gas emissions were calculated based on the iMac (two ports) with 512GB storage configuration [S2]; however, the table specifying the breakdown by life cycle stage lists the total product footprint as 346 kg CO2e for the iMac (two ports) 256GB [S1].)\n* **Production:** 50% of the life cycle product emissions (scope 3) [S1].\n* **Product use:** 45% of the life cycle product emissions (scope 3) [S1]. \n\nAdditionally, the carbon footprint for the iMac (four ports) 512GB configuration is 391 kg CO2e [S3]."
+      },
+      {
+        "id": "q03",
+        "question": "What material is the iMac stand made from, and what percentage of it is recycled?",
+        "search_query": "iMac stand material recycled percentage",
+        "sources": [
+          "callout p1 (Product Environmental Report)",
+          "callout p4 (Design and Source)",
+          "text p4 (Design and Source)",
+          "text p2 (Progress toward carbon neutral)",
+          "text p4 (Design and Source)"
+        ],
+        "retrieval_hit": true,
+        "answer_pass": true,
+        "passed": true,
+        "answer": "The iMac stand is made from aluminum [S1, S2, S3, S4]. 100 percent of the aluminum in the stand is recycled [S1, S2, S3, S4]."
+      },
+      {
+        "id": "q04",
+        "question": "What is the iMac's idle power consumption with the display on at 115V?",
+        "search_query": "iMac idle power consumption display on 115V",
+        "sources": [
+          "table p12 ()",
+          "footnote p12 (Endnotes)",
+          "text p7 (Use)",
+          "text p7 (Use)",
+          "text p7 (Use)"
+        ],
+        "retrieval_hit": true,
+        "answer_pass": true,
+        "passed": true,
+        "answer": "The iMac's idle power consumption with the display on at 115V is 20.6W, as shown in the power consumption table and its accompanying footnote on page 12 [S1, S2]. According to the footnote, energy consumption and efficiency values are based on ENERGY STAR Program Requirements for Computers (including the max energy allowance for iMac), and the iMac is tested with the 143W Power Adapter, AC Cable (1m), and DC Cable (2m) while connected to Wi-Fi with the display brightness set as defined by ENERGY STAR and Auto-Brightness turned off [S2]."
+      },
+      {
+        "id": "q05",
+        "question": "What is the power adapter efficiency at 230V?",
+        "search_query": "Apple iMac Product Environmental Report power adapter efficiency 230V",
+        "sources": [
+          "table p12 ()",
+          "footnote p12 (Endnotes)",
+          "text p7 (Use)",
+          "text p7 (Use)",
+          "text p7 (Use)"
+        ],
+        "retrieval_hit": true,
+        "answer_pass": true,
+        "passed": true,
+        "answer": "The power adapter efficiency at 230V is 91.9% [S1]. According to footnote 18, energy consumption and energy efficiency values are based on the ENERGY STAR Program Requirements for Computers, including the max energy allowance for iMac, and the iMac is tested with the 143W Power Adapter, AC Cable (1m), and DC Cable (2m) [S2]. Power adapter efficiency is defined as the average measured efficiency of the power adapter with the AC Cable (1m) and DC Cable (2m) when tested at 100 percent, 75 percent, 50 percent, and 25 percent of the power adapter's rated output current, but not connected to the system [S2]."
+      },
+      {
+        "id": "q06",
+        "question": "What is the carbon footprint of the four-port iMac with 512GB storage?",
+        "search_query": "four-port iMac 512GB storage carbon footprint Apple Product Environmental Report",
+        "sources": [
+          "table p10 (Carbon Footprint)",
+          "text p10 (Carbon Footprint)",
+          "footnote p11 (Endnotes)",
+          "text p10 (Carbon Footprint)",
+          "table p10 (Carbon Footprint)"
+        ],
+        "retrieval_hit": true,
+        "answer_pass": true,
+        "passed": true,
+        "answer": "The carbon footprint for the iMac (four ports) 512GB configuration is 391 kg CO2e, as shown in the table and text on page 10 [S1, S2]."
+      },
+      {
+        "id": "q07",
+        "question": "Which configuration does the 346 kg emissions figure refer to?",
+        "search_query": "346 kg emissions figure configuration Apple iMac Product Environmental Report",
+        "sources": [
+          "table p10 (Carbon Footprint)",
+          "chart p2 (Progress toward carbon neutral)",
+          "text p10 (Carbon Footprint)",
+          "text p10 (Carbon Footprint)",
+          "text p2 (Progress toward carbon neutral)"
+        ],
+        "retrieval_hit": true,
+        "answer_pass": true,
+        "passed": true,
+        "answer": "The 346 kg CO2e total product footprint figure refers to the iMac (two ports) with 256GB configuration, as stated in the table on page 10 [S1]. \n\nHowever, footnote 10 on page 2 states that greenhouse gas emissions were calculated based on the iMac (two ports) with 512GB storage configuration [S2]."
+      },
+      {
+        "id": "q08",
+        "question": "What percentage of iMac's packaging is fiber-based?",
+        "search_query": "iMac packaging fiber-based percentage",
+        "sources": [
+          "text p6 (Package and Ship)",
+          "text p1 (Product Environmental Report)",
+          "callout p6 (Package and Ship)",
+          "text p6 (Package and Ship)",
+          "text p6 (Package and Ship)"
+        ],
+        "retrieval_hit": true,
+        "answer_pass": true,
+        "passed": true,
+        "answer": "100 percent (or 100%) of the packaging is fiber-based for the iMac introduced on October 28, 2024 [S1, S2, S3, S4]. This figure is based on the breakdown of U.S. retail packaging by weight, and adhesives, inks, and coatings are excluded from the calculations of plastic content and packaging weight [S1, S2, S3, S4]."
+      },
+      {
+        "id": "q09",
+        "question": "What is the iMac's battery life?",
+        "search_query": "iMac battery life",
+        "sources": [
+          "footnote p11 (Endnotes)",
+          "text p7 (Use)",
+          "table p10 (Carbon Footprint)",
+          "text p9 (Definitions)",
+          "chart p2 (Progress toward carbon neutral)"
+        ],
+        "retrieval_hit": true,
+        "answer_pass": true,
+        "passed": true,
+        "answer": "The report does not contain this information."
+      }
+    ]
+  }
+]
